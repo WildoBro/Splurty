@@ -53,4 +53,7 @@ Rails.application.routes.draw do
   #     # (app/controllers/admin/products_controller.rb)
   #     resources :products
   #   end
+# this line is added by instruction
+  root 'quotes#index'
+# this was the added line
 end
