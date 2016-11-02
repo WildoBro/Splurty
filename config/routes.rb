@@ -4,7 +4,7 @@ Rails.application.routes.draw do
 
   # You can have the root of your site routed with "root"
   # root 'welcome#index'
-
+  root 'quotes#index'
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
 
@@ -13,7 +13,7 @@ Rails.application.routes.draw do
 
   # Example resource route (maps HTTP verbs to controller actions automatically):
   #   resources :products
-
+  resources :quotes
   # Example resource route with options:
   #   resources :products do
   #     member do
@@ -25,7 +25,7 @@ Rails.application.routes.draw do
   #       get 'sold'
   #     end
   #   end
-
+  get 'about', to: 'quotes#about'
   # Example resource route with sub-resources:
   #   resources :products do
   #     resources :comments, :sales
@@ -53,7 +53,5 @@ Rails.application.routes.draw do
   #     # (app/controllers/admin/products_controller.rb)
   #     resources :products
   #   end
-# this line is added by instruction
-  root 'quotes#index'
-# this was the added line
+
 end

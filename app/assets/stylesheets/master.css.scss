@@ -1,16 +1,20 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
-@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700');
+/* @import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700'); */
 
 .clear {
   clear:both;
+}
+
+.logo:hover {
+  text-decoration: none;
 }
 
 .circle {
     font-weight:bold;
     font-style: italic;
     position: relative;
-    border-radius: 100%;
+    border-radius:  100%;
     background: #f84342;
     border: 1px solid #F7F7F7;
     width: 80px;
@@ -21,7 +25,7 @@
     font-size: 10px;
     line-height: 16px;
     cursor: pointer;
-    transform:rotate(11deg);
+    transform:rotate(11deg); 
     -ms-transform:rotate(11deg); /* IE 9 */
     -webkit-transform:rotate(11deg); /* Opera, Chrome, and Safari */
 }
@@ -52,15 +56,17 @@ hr {
 }
 
 h1 {
-  font-family: 'Roboto Condensed', sans-serif;
+  /* font-family: 'Roboto Condensed', sans-serif; */
+  font-family: 'sinkin_sans400_regular';
   font-weight: 600;
-  letter-spacing: -1.5px;
+  letter-spacing: -2.5px;
 }
 
 h2 {
-  font-family: 'Roboto Condensed', sans-serif;
+  /* font-family: 'Roboto Condensed', sans-serif; */
+  font-family: 'sinkin_sans400_regular';
   font-weight: 600;
-  letter-spacing: -1.5px;
+  letter-spacing: -2.5px;
 }
 
 .next-quote{
