@@ -38,6 +38,10 @@ h2 {
   }
 }
 
+::selection {
+  background-color: #f84342;
+}
+
 .logo:hover {
   text-decoration: none;
 }
